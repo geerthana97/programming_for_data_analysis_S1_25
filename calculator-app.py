@@ -54,4 +54,4 @@ if error:
     st.error(f"Calculation Error: **{error}**")
 elif result is not None:
     # Display the final numerical result using st.metric for visual emphasis
-    st.metric(label="Result", value=f"{result:,.6f}")
+    st.metric(label="Result", value=f"{result:,.2f}")
