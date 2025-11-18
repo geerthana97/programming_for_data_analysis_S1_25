@@ -39,8 +39,8 @@ if st.button('Calculate Area'):
         else:
             # Area = π * r²
             area = math.pi * (radius ** 2)
+            # Display the formula using LaTeX markdown
             st.markdown(f"**Formula:** $A = \pi r^2$")
-            [Image of circle area formula]
 
     elif selected_shape == 'Rectangle':
         if length < 0 or width < 0:
@@ -48,8 +48,8 @@ if st.button('Calculate Area'):
         else:
             # Area = l * w
             area = length * width
+            # Display the formula using LaTeX markdown
             st.markdown(f"**Formula:** $A = l \\times w$")
-            [Image of rectangle area formula]
 
     elif selected_shape == 'Triangle':
         if base < 0 or height < 0:
@@ -57,8 +57,8 @@ if st.button('Calculate Area'):
         else:
             # Area = 0.5 * b * h
             area = 0.5 * base * height
+            # Display the formula using LaTeX markdown
             st.markdown(f"**Formula:** $A = \\frac{1}{2} b \\times h$")
-            [Image of triangle area formula]
 
 # --- 4. Display Result ---
 st.markdown("---")
