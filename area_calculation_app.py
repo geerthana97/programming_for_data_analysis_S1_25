@@ -68,4 +68,3 @@ if error:
 elif area is not None:
     # Display the final numerical result
     st.metric(label=f"Area of the {selected_shape}", value=f"{area:,.4f} units²")
-    st.balloons()
